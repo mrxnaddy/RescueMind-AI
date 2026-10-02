@@ -5,3 +5,8 @@ pydantic-settings
 # testing
 pytest
 httpx
+
+# database
+sqlalchemy
+alembic
+psycopg[binary]
