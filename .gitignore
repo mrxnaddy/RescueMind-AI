@@ -1,26 +1,37 @@
-# Secrets - never commit these
-.env
-*.pem
-*.key
-
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
 .venv/
 venv/
-.pytest_cache/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Node
 node_modules/
 dist/
 
-# Uploaded files (keep folders, ignore contents)
-storage/property-images/*
-storage/property-documents/*
-storage/temporary-uploads/*
-!storage/**/.gitkeep
+# Logs
+*.log
 
-# Editor / OS
-.vscode/
-.DS_Store
-Thumbs.db
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test/cache
+.pytest_cache/
+.coverage
+htmlcov/

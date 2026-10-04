@@ -1,0 +1,19 @@
+[
+  {"name": "[SIM] City Ambulance Station A", "resource_type": "ambulance", "quantity": 4, "available_quantity": 4, "latitude": 31.5300, "longitude": 74.3500, "location_name": "Simulated District - Central"},
+  {"name": "[SIM] City Ambulance Station B", "resource_type": "ambulance", "quantity": 3, "available_quantity": 2, "latitude": 31.4900, "longitude": 74.3900, "location_name": "Simulated District - South East"},
+  {"name": "[SIM] North Ambulance Post", "resource_type": "ambulance", "quantity": 2, "available_quantity": 2, "latitude": 31.5800, "longitude": 74.3300, "location_name": "Simulated District - North"},
+  {"name": "[SIM] Reserve Ambulances (maintenance)", "resource_type": "ambulance", "quantity": 2, "available_quantity": 0, "latitude": 31.5150, "longitude": 74.3450, "location_name": "Simulated District - Workshop", "status": "unavailable"},
+  {"name": "[SIM] Central Fire Station", "resource_type": "fire_truck", "quantity": 3, "available_quantity": 3, "latitude": 31.5250, "longitude": 74.3650, "location_name": "Simulated District - Central"},
+  {"name": "[SIM] East Fire Station", "resource_type": "fire_truck", "quantity": 2, "available_quantity": 2, "latitude": 31.5100, "longitude": 74.4100, "location_name": "Simulated District - East"},
+  {"name": "[SIM] South Fire Post", "resource_type": "fire_truck", "quantity": 1, "available_quantity": 1, "latitude": 31.4500, "longitude": 74.3400, "location_name": "Simulated District - South"},
+  {"name": "[SIM] Urban Search & Rescue Team 1", "resource_type": "rescue_team", "quantity": 2, "available_quantity": 2, "latitude": 31.5400, "longitude": 74.3300, "location_name": "Simulated District - North West"},
+  {"name": "[SIM] Urban Search & Rescue Team 2", "resource_type": "rescue_team", "quantity": 2, "available_quantity": 2, "latitude": 31.4800, "longitude": 74.3700, "location_name": "Simulated District - South"},
+  {"name": "[SIM] Flood Rescue Team", "resource_type": "rescue_team", "quantity": 2, "available_quantity": 2, "latitude": 31.5000, "longitude": 74.3200, "location_name": "Simulated District - River Side"},
+  {"name": "[SIM] River Rescue Boat Unit 1", "resource_type": "rescue_boat", "quantity": 3, "available_quantity": 3, "latitude": 31.5350, "longitude": 74.3400, "location_name": "Simulated District - River Side"},
+  {"name": "[SIM] River Rescue Boat Unit 2", "resource_type": "rescue_boat", "quantity": 2, "available_quantity": 2, "latitude": 31.4950, "longitude": 74.3800, "location_name": "Simulated District - South East"},
+  {"name": "[SIM] Police Station Central", "resource_type": "police_unit", "quantity": 4, "available_quantity": 4, "latitude": 31.5230, "longitude": 74.3620, "location_name": "Simulated District - Central"},
+  {"name": "[SIM] Highway Patrol Post", "resource_type": "police_unit", "quantity": 3, "available_quantity": 3, "latitude": 31.5600, "longitude": 74.4000, "location_name": "Simulated District - Highway"},
+  {"name": "[SIM] Relief Warehouse North", "resource_type": "relief_supplies", "quantity": 50, "available_quantity": 50, "latitude": 31.5700, "longitude": 74.3500, "location_name": "Simulated District - North (food and water kits)"},
+  {"name": "[SIM] Relief Warehouse South", "resource_type": "relief_supplies", "quantity": 30, "available_quantity": 30, "latitude": 31.4600, "longitude": 74.3600, "location_name": "Simulated District - South (food and water kits)"},
+  {"name": "[SIM] Medical Supply Depot", "resource_type": "medical_supplies", "quantity": 40, "available_quantity": 40, "latitude": 31.5100, "longitude": 74.3700, "location_name": "Simulated District - Central (first-aid kits)"}
+]
