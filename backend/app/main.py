@@ -26,6 +26,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routes.map import router as map_router
 from app.routes.agent_executions import router as agent_executions_router
 from app.routes import incident_history
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.database import engine
 
@@ -34,6 +35,18 @@ app = FastAPI(
     title="RescueMind AI",
     description="AI-powered Emergency Intelligence Platform",
     version="1.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://YOUR-VERCEL-DOMAIN.vercel.app",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 app.add_middleware(
