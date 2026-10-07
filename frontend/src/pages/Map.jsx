@@ -9,7 +9,7 @@ import {
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API_BASE_URL = "https://rescuemind-ai-production.up.railway.app";
 
 const severityColors = {
   critical: "#dc2626",
