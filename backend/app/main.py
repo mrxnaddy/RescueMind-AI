@@ -37,20 +37,21 @@ app = FastAPI(
     version="1.0.0",
 )
 
+
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://rescue-mind-a63xee6zu-agentx3.vercel.app",  # Apna actual Vercel domain yahan likhein
+    "https://rescue-mind-a63xee6zu-agentx3.vercel.app",  # Apna main Vercel URL (end par '/' bilkul na ho)
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",  # Tamam vercel.app subdomains ke liye
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 app.include_router(emergency_reports_router)
 app.include_router(agents_router)
